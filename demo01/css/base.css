@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+header,
+footer,
+section,
+figure,
+figcaption,
+hgroup,
+artical,
+aside,
+nav {
+    display: block;
+}
+
+input,
+button {
+    outline: none;
+    border: 1px solid gray;
+    background: none;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.clearfix::after {
+    display: block;
+    height: 0;
+    content: '';
+    visibility: hidden;
+    clear: both;
+}
+
+.hid {
+    display: none;
+}
+
+.flex-start{
+    display: flex;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex{
+    flex: 1;
+}
+
+
+/* 颜色类 */
+.bg-white{
+    background-color: white;
+}
+
+.txt-white{
+    color: white;
+}

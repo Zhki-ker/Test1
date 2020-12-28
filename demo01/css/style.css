@@ -1,0 +1,407 @@
+/* ====== 版心 ======= */
+.inner {
+    box-sizing: border-box;
+    width: 1280px;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+
+/* ====== 顶部导航 ====== */
+.top-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(76, 66, 66, .8);
+}
+
+.logo a {
+    display: block;
+    width: 130px;
+    height: 35px;
+    text-indent: -9999px;
+    background: url(../images/epub360_logo.png) left 2px/auto 28px no-repeat;
+    /* border: 1px solid; */
+}
+
+.nav {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.nav>li {
+    padding: 10px 0;
+    position: relative;
+}
+
+.nav img {
+    width: 20px;
+    position: absolute;
+    top: 6px;
+    left: 36px;
+}
+
+.nav a {
+    display: block;
+    padding: 6px 14px;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.login-regist button {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 12px;
+}
+
+.login {
+    color: gray;
+}
+
+.login:hover {
+    color: #2A6496;
+}
+
+.regist {
+    margin-left: 10px;
+    padding: 4px 10px;
+    color: white;
+    background-color: #FF8800 !important;
+}
+
+.menu {
+    display: none;
+    padding: 15px 0;
+}
+
+
+/* ====== banner 部分 ======= */
+.banner {
+    height: 400px;
+    background: url(../images/banner.png) center/100%;
+    overflow: hidden;
+}
+
+.banner .inner {
+    height: 100%;
+    background: url(../images/b1.png) left/180px no-repeat,
+        url(../images/b2.png) right/180px no-repeat,
+        url(../images/b3.png) 50% 60px/300px no-repeat;
+
+    position: relative;
+}
+
+.bd {
+    box-sizing: border-box;
+    width: 570px;
+    height: 200px;
+    padding-top: 10px;
+    border: solid 4px white;
+    border-bottom: none;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bd p {
+    color: white;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
+}
+
+
+/* ====== 简述 部分 ======= */
+.desc {
+    padding: 36px 0 24px;
+    text-align: center;
+}
+
+.desc h2 {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.desc p {
+    margin-top: 20px;
+    color: gray;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ====== 各种项目 部分 ======= */
+.items {
+    margin-top: 6px;
+    padding-top: 40px;
+    background-color: #F2F2F2;
+    box-shadow: 0 6px 8px #e3e3e3 inset;
+}
+
+.items .h3 {
+    margin-bottom: 30px;
+}
+
+.items h3 img {
+    width: 90px;
+}
+
+.items span {
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+.items-datils figure {
+    box-sizing: border-box;
+    width: 23%;
+    margin-top: 10px;
+    margin-left: 2.66666666%;
+    padding: 16px 20px 80px;
+    background-color: white;
+    position: relative;
+    align-self: flex-start;
+}
+
+.items-datils figure:nth-of-type(4n+1) {
+    margin-left: 0;
+}
+
+.items-datils img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.items-datils h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.items-datils p {
+    color: gray;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.items-datils button {
+    padding: 4px 14px;
+    color: gray;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.items-datils button:hover,
+.summary:hover {
+    color: white;
+    background-color: #294754
+}
+
+.summary {
+    display: block;
+    width: 200px;
+    margin: 50px auto 60px;
+    padding: 10px 0;
+    color: gray;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* =====  footer 部分  ====== */
+footer {
+    padding-top: 30px;
+    font-size: 14px;
+    background-color: #454545;
+}
+
+.contact-us {
+    padding: 0 30px;
+    border-bottom: solid 1px #CBCBCB;
+}
+
+.contact-us h3 {
+    font-size: 16px;
+    color: white;
+    line-height: 36px;
+}
+
+
+.contact-items {
+    padding: 16px 0;
+    color: #CBCBCB;
+}
+
+.contact-items-left {
+    line-height: 20px;
+}
+
+.contact-items-center p {
+    width: 50%;
+}
+
+.contact-items-center img {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.contact-items-center span {
+    float: left;
+    margin: 0 6px 0 12px;
+}
+
+.contact-items-right {
+    width: 180px;
+    color: white;
+    font-size: 16px;
+}
+
+.contact-items-right img {
+    width: 180px;
+    margin-top: 14px;
+}
+
+.friend-links {
+    padding: 16px 30px;
+    line-height: 24px;
+}
+
+.friend-links-left {
+    color: gray;
+}
+
+.friend-links-left dd,
+.friend-links-right {
+    color: #CBCBCB;
+}
+
+.friend-links-right {
+    text-align: right;
+}
+
+.others {
+    padding: 16px 30px;
+    color: #666666;
+    line-height: 36px;
+}
+
+.others p:hover {
+    color: #D6D2D2;
+}
+
+
+/* ======  整个标准页面样式写完之后，再去写响应式的代码，适配不同屏幕下的样式 ======= */
+@media only screen and (max-width:1280px) {
+    .inner {
+        width: 960px;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .logo,
+    .login-regist {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 0 1%;
+    }
+
+    .login-regist {
+        text-align: right;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .flex10 {
+        order: 10;
+    }
+
+    .banner {
+        background-size: 1280px 100%;
+    }
+
+    .contact-items-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact-items {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .inner {
+        width: 100%;
+    }
+
+
+    .login-regist,
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        height: 26px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .banner {
+        height: 360px;
+        background-size: 960px 100%;
+    }
+
+    .banner .inner {
+        background: url(../images/b3.png) 50% 60px/240px no-repeat;
+    }
+
+    .bd {
+        height: 180px;
+    }
+
+    .items-datils figure {
+        width: 48%;
+    }
+
+    .items-datils figure:nth-of-type(odd) {
+        margin-left: 1%
+    }
+
+    .items-datils figure:nth-of-type(even) {
+        margin-left: 2%
+    }
+
+    .contact-items-left,
+    .contact-items-center,
+    .friend-links-right {
+        width: 100%;
+        flex: unset !important;
+    }
+
+
+    .contact-items-center {
+        margin-top: 20px;
+    }
+
+    .friend-links {
+        flex-wrap: wrap;
+    }
+
+    .friend-links-right {
+        margin-top: 20px;
+        text-align: left;
+    }
+}
